@@ -32,3 +32,7 @@ public class tarefa1 {
 		
 	}
 }
+
+//System.out.println(((valor%2)==0) ? "NUMERO PAR": "NUMERO IMPAR");
+//System.out.println((valor==0)? "ZERO É NEUTRO":((valor%2)==0) ? "NUMERO PAR": "NUMERO IMPAR");
+
