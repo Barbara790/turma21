@@ -17,7 +17,7 @@ o número de pessoas calmas com menos de 18 ano
 public class ex4 {
 	public static void main(String[] args) {
 		Scanner leia= new Scanner(System.in);
-		final int TOTAL=2;
+		final int TOTAL=150;
 		int estadoPsicologico=0;
 		int mulheresNervosas=0;
 		int homensAgressivos=0;
