@@ -29,7 +29,6 @@ public class ex4 {
 		int informacoes=0;
 		int pessoasNervosas=0;
 		int outrosCalmos=0;
-		int pessoasAgressivas=0;
 		
 		while(informacoes<TOTAL) {
 			informacoes++;
