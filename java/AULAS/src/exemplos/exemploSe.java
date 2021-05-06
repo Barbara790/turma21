@@ -10,7 +10,7 @@ public class exemploSe {
 		String nome;
 		char genero;
 		boolean usoEmergencial;
-		double salario=0;
+		double salario;
 		int lerEmergencial;
 		double somaSalarioAnual=0.00;
 		double impostoRenda=0.0;
@@ -35,7 +35,7 @@ public class exemploSe {
 			usoEmergencial=true;
 			else {
 				usoEmergencial=false;
-		}
+			}
 		}
 		if(somaSalarioAnual>60.000) {
 			if(salario>5.000 && salario<6.000) {
