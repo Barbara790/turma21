@@ -17,7 +17,7 @@ public class ex4 {
 		double mSub[][]=new double[2][2];
 		double mSoma[][]=new double[2][2];
 		char menu=' ';
-		
+		int constante=0;
 		
 		System.out.println("(1) somar as duas matrizes ");
 		System.out.println("(2) subtrair a primeira matriz da segunda ");
