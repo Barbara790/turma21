@@ -2,15 +2,11 @@ package exemplos;
 
 public class ExemploOver2 extends ExemploOver {
 	private double adicional;
+	
 
-	public ExemploOver2(String matricula, String nome, int horasTrabalhadas, double valorHora) {
+	public ExemploOver2(String matricula, String nome, int horasTrabalhadas, double valorHora, double adicional) {
 		super(matricula, nome, horasTrabalhadas, valorHora);
-		// TODO Auto-generated constructor stub
-	}
-
-	public ExemploOver2(String matricula, String nome) {
-		super(matricula, nome);
-		// TODO Auto-generated constructor stub
+		this.adicional = adicional;
 	}
 
 	public double getAdicional() {
@@ -24,6 +20,6 @@ public class ExemploOver2 extends ExemploOver {
 	@Override
 
 	public void mostrarSalario() {
-		System.out.println(calcularSalario()+adicional);
+		System.out.println("O salário do terceiro é "+(calcularSalario()+adicional));
 	}
 }

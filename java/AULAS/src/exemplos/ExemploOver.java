@@ -1,6 +1,6 @@
 package exemplos;
 
-public class ExemploOver {
+public class ExemploOver {//a classe seria funcionário aqui
 	private String matricula;
 	private String nome;
 	private int horasTrabalhadas;
