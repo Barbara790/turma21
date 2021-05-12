@@ -1,6 +1,6 @@
 package classes;
 
-public class Basico extends Estudante {//Estudante é a super(a mãe) de básico
+public class Basico extends Estudante{//Estudante é a super(a mãe) de básico
 	private int diaAniversario;
 
 public Basico(int matricula, String cpf, int diaAniversario) {

@@ -78,26 +78,6 @@ public class Estudante {
 	public void tirarNota(double pontos) {
 		this.pontos=this.pontos-pontos;
 	}
-	public double somarNotas(double pontos[]) {
-		double somaNotas=0.0;
-		for(int x=0;x<pontos.length;x++) {
-			somaNotas=somaNotas+pontos[x];
-		}
-		return somaNotas;
-	}
-
-	/*funcao real somarNotas(real notas[]){
-		real somaNotas=0.0
-		para(inteiro x=0;x<Util.numero_elementos(notas);x++){
-			somaNotas=somaNotas+notas[x]
-		}
-		retorne somaNotas
-	}*/
-	
-
 	
 	
-	
-	
-
 }

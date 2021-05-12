@@ -7,6 +7,7 @@ public class ProgramaOver {
 		
 		funcionario.mostrarSalario();
 		fun2.mostrarSalario();
+	
 	}
 
 }
