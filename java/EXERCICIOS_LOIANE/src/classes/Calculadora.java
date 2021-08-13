@@ -58,4 +58,4 @@ public class Calculadora {
 		System.out.println(potencianum);
 		return potencianum;*/
 	}
-}
+
